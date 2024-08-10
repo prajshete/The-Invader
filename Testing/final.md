@@ -12,29 +12,29 @@ The goal of these tests is to ensure that the client is working as expected, and
 
 ### Resolution of Warnings
 
-![Figure 1: Warning Level 4](final-images/warning-level.PNG)
+![Figure 1: Warning Level 4](final-images/warning-level.png)
 
 **Figure 1: Warning Level 4** The first screenshot shows that the Client's warning level is set to `Level4 (/W4)`, and that it will halt the build process if any warnings are issued, treating them as if they were errors.***
 
-![Figure 2: No Warnings](final-images/build-output.PNG)
+![Figure 2: No Warnings](final-images/build-output.png)
 
 **Figure 2: No Warnings** The second screenshot depicts a full rebuild completing successfully (and not being interrupted, as it would if there were a warning or error), as well as the Error List window, which shows the warning and error count both equal to `0`.***
 
 ### Mimikatz Task
 
-![Figure 3: Mimikatz Commands](final-images/mimikatz.PNG)
+![Figure 3: Mimikatz Commands](final-images/mimikatz.png)
 
 **Figure 3: Mimikatz Commands**
 
-![Figure 4: Mimikatz Tasks](final-images/mimikatz-tasks.PNG)
+![Figure 4: Mimikatz Tasks](final-images/mimikatz-tasks.png)
 
 **Figure 4: Mimikatz Tasks**
 
-![Figure 5: Mimikatz Standard Result](final-images/mimikatz-1.PNG)
+![Figure 5: Mimikatz Standard Result](final-images/mimikatz-1.png)
 
 **Figure 5: Mimikatz Standard Result**
 
-![Figure 6: Mimikatz Logonpasswords Result](final-images/mimikatz-2.PNG)
+![Figure 6: Mimikatz Logonpasswords Result](final-images/mimikatz-2.png)
 
 **Figure 6: Mimikatz Logonpasswords Result**
 
@@ -42,11 +42,11 @@ The goal of these tests is to ensure that the client is working as expected, and
 
 ### Encryption Between Client and Server
 
-![CLI Commands](final-images/random-CLI.PNG)
+![CLI Commands](final-images/random-CLI.png)
 
-![Encrypted Registration](final-images/random-registration.PNG)
+![Encrypted Registration](final-images/random-registration.png)
 
-![Encrypted listprivs Task Result](final-images/random-listprivs.PNG)
+![Encrypted listprivs Task Result](final-images/random-listprivs.png)
 
 ***The first screenshot shows the CLI selecting an agent and then sending it the `listprivs` task (specifically chosen because of the large amount of data it causes the client to send back to the server).***
 
@@ -56,86 +56,86 @@ The goal of these tests is to ensure that the client is working as expected, and
 
 ### Removal of Visible Console
 
-![Windows Subsystem Configuration](final-images/windows-subsystem-configuration.PNG)
+![Windows Subsystem Configuration](final-images/windows-subsystem-configuration.png)
 
 ***This screenshot shows the correct configuration for removing the visible console window for Release builds***
 
-![Running Without Window](final-images/running-without-window.PNG)
+![Running Without Window](final-images/running-without-window.png)
 
 ***Here, VisualStudio is shown to be actively running a Release build of the Client, and no corresponding console window is to be found.***
 
 ### Help Information
 
-![help](final-images/help-command.PNG)
+![help](final-images/help-command.png)
 
 ***In this screenshot, the improved `help` command's output is shown. Although all of the help messages and specific command examples couldn't be shown in this screenshot, they can easily be referenced [here](../Server/cli/README.md), in the CLI documentation.***
 
 ## Documented Re-Tests
 
-![terminate](final-images/terminate.PNG)
+![terminate](final-images/terminate.png)
 
 ***This screenshot shows the terminate functionality***
 
-![history](final-images/history.PNG)
+![history](final-images/history.png)
 
 ***This screenshot shows the history functionality***
 
-![pwd](final-images/pwd.PNG)
+![pwd](final-images/pwd.png)
 
 ***This screenshot shows the pwd functionality***
 
-![cd](final-images/cd.PNG)
+![cd](final-images/cd.png)
 
 ***This screenshot shows the cd functionality***
 
-![whoami](final-images/whoami.PNG)
+![whoami](final-images/whoami.png)
 
 ***This screenshot shows the whoami functionality***
 
-![ps](final-images/ps.PNG)
+![ps](final-images/ps.png)
 
-![ps2](final-images/pscont.PNG)
+![ps2](final-images/pscont.png)
 
 ***These screenshots show the ps functionality***
 
-![Shell](final-images/shell.PNG)
+![Shell](final-images/shell.png)
 ***This screenshot shows the shell functionality***
 
-![setpriv](final-images/setpriv.PNG)
+![setpriv](final-images/setpriv.png)
 
 ***This screenshot shows the functionality of the setpriv command***
 
-![listprivs](final-images/listprivs.PNG)
+![listprivs](final-images/listprivs.png)
 
 ***This screenshot shows the functionality of the listprivs command, where you can see the priv that was set using the setpriv command above.***
 
-![tasks](final-images/tasks.PNG)
+![tasks](final-images/tasks.png)
 
-![task](final-images/task.PNG)
+![task](final-images/task.png)
 
 ***These screenshots show the functionality of the task command.***
 
-![bypassuac](final-images/bypassuac.PNG)
+![bypassuac](final-images/bypassuac.png)
 
 ***This screenshot shows the functionality of the bypassuac command***
 
-![getsystem](final-images/getsystem.PNG)
+![getsystem](final-images/getsystem.png)
 
 ***This screenshot shows the functionality of the getsystem command***
 
-![sysinfo](final-images/sysinfo.PNG)
+![sysinfo](final-images/sysinfo.png)
 
 ***This screenshot shows the functionality of the sysinfo command***
 
-![Screenshot](final-images/screenshot.PNG)
+![Screenshot](final-images/screenshot.png)
 
 ***This screenshot shows the functionality of the screenshot command.***
 
-![the screenshot that was taken](final-images/AGENT-TASK.PNG)
+![the screenshot that was taken](final-images/AGENT-TASK.png)
 
 ***This is the screenshot taken using the above command***
 
-![Sleep](final-images/sleep.PNG)
+![Sleep](final-images/sleep.png)
 
 ***This screenshot shows the functionality of the sleep command***
 
