@@ -12,29 +12,29 @@ The goal of these tests is to ensure that the client is working as expected, and
 
 ### Resolution of Warnings
 
-![Figure 1: Warning Level 4](final-images/warning-level.png)
+![Figure 1: Warning Level 4](final-images/warning-level.PNG)
 
 **Figure 1: Warning Level 4** The first screenshot shows that the Client's warning level is set to `Level4 (/W4)`, and that it will halt the build process if any warnings are issued, treating them as if they were errors.***
 
-![Figure 2: No Warnings](final-images/build-output.png)
+![Figure 2: No Warnings](final-images/build-output.PNG)
 
 **Figure 2: No Warnings** The second screenshot depicts a full rebuild completing successfully (and not being interrupted, as it would if there were a warning or error), as well as the Error List window, which shows the warning and error count both equal to `0`.***
 
 ### Mimikatz Task
 
-![Figure 3: Mimikatz Commands](final-images/mimikatz.png)
+![Figure 3: Mimikatz Commands](final-images/mimikatz.PNG)
 
 **Figure 3: Mimikatz Commands**
 
-![Figure 4: Mimikatz Tasks](final-images/mimikatz-tasks.png)
+![Figure 4: Mimikatz Tasks](final-images/mimikatz-tasks.PNG)
 
 **Figure 4: Mimikatz Tasks**
 
-![Figure 5: Mimikatz Standard Result](final-images/mimikatz-1.png)
+![Figure 5: Mimikatz Standard Result](final-images/mimikatz-1.PNG)
 
 **Figure 5: Mimikatz Standard Result**
 
-![Figure 6: Mimikatz Logonpasswords Result](final-images/mimikatz-2.png)
+![Figure 6: Mimikatz Logonpasswords Result](final-images/mimikatz-2.PNG)
 
 **Figure 6: Mimikatz Logonpasswords Result**
 
@@ -42,11 +42,11 @@ The goal of these tests is to ensure that the client is working as expected, and
 
 ### Encryption Between Client and Server
 
-![CLI Commands](final-images/random-CLI.png)
+![CLI Commands](final-images/random-CLI.PNG)
 
-![Encrypted Registration](final-images/random-registration.png)
+![Encrypted Registration](final-images/random-registration.PNG)
 
-![Encrypted listprivs Task Result](final-images/random-listprivs.png)
+![Encrypted listprivs Task Result](final-images/random-listprivs.PNG)
 
 ***The first screenshot shows the CLI selecting an agent and then sending it the `listprivs` task (specifically chosen because of the large amount of data it causes the client to send back to the server).***
 
@@ -56,17 +56,17 @@ The goal of these tests is to ensure that the client is working as expected, and
 
 ### Removal of Visible Console
 
-![Windows Subsystem Configuration](final-images/windows-subsystem-configuration.png)
+![Windows Subsystem Configuration](final-images/windows-subsystem-configuration.PNG)
 
 ***This screenshot shows the correct configuration for removing the visible console window for Release builds***
 
-![Running Without Window](final-images/running-without-window.png)
+![Running Without Window](final-images/running-without-window.PNG)
 
 ***Here, VisualStudio is shown to be actively running a Release build of the Client, and no corresponding console window is to be found.***
 
 ### Help Information
 
-![help](final-images/help-command.png)
+![help](final-images/help-command.PNG)
 
 ***In this screenshot, the improved `help` command's output is shown. Although all of the help messages and specific command examples couldn't be shown in this screenshot, they can easily be referenced [here](../Server/cli/README.md), in the CLI documentation.***
 
@@ -131,7 +131,7 @@ The goal of these tests is to ensure that the client is working as expected, and
 
 ***This screenshot shows the functionality of the screenshot command.***
 
-![the screenshot that was taken](final-images/AGENT-TASK.png)
+![the screenshot that was taken](final-images/AGENT-TASK.PNG)
 
 ***This is the screenshot taken using the above command***
 
