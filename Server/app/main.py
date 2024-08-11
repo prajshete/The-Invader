@@ -262,7 +262,7 @@ import sys
 import time
 #changes for hw8
 
-from libs.sRDI.ShellcodeRDI import *
+from ..libs.sRDI.ShellcodeRDI import *
 
 
 

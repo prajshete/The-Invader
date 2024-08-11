@@ -98,8 +98,14 @@ The goal of these tests is to ensure that the client is working as expected, and
 
 ***These screenshots show the ps functionality***
 
+<<<<<<< HEAD
+![Shell](final-images/shell.PNG)
+![Shell](final-images/shell2.PNG)
+***These screenshots shows the shell functionality***
+=======
 ![Shell](final-images/shell.png)
 ***This screenshot shows the shell functionality***
+>>>>>>> 00f3d3532afdced2a25556094864c0a4f4c76485
 
 ![setpriv](final-images/setpriv.png)
 
