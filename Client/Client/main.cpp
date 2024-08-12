@@ -37,6 +37,15 @@ typedef LPBYTE(*ExecuteWFunc)(LPCWSTR, DWORD*);
 #pragma warning(disable: 4996)
 
 #define CHUNK_SIZE 1048576
+
+#ifdef _DEBUG
+// DEBUG BUILD
+#define MAIN main(VOID)
+#else 
+// RELEASE BUILD
+#define MAIN WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nShowCmd)
+#endif
+
 int jitterPercentage = 25;
 using json = nlohmann::json;
 
@@ -2403,7 +2412,7 @@ BOOL http_request_result(LPCSTR host, WORD port, BOOL secure, LPCSTR verb, LPCST
 
 
 
-int main(int argc, char* argv[])
+INT WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nShowCmd)
 {
 	const DWORD DEFAULT_SLEEP_TIME = 10;
 	std::string agent_id;
