@@ -98,14 +98,12 @@ The goal of these tests is to ensure that the client is working as expected, and
 
 ***These screenshots show the ps functionality***
 
-<<<<<<< HEAD
-![Shell](final-images/shell.PNG)
-![Shell](final-images/shell2.PNG)
-***These screenshots shows the shell functionality***
-=======
+
 ![Shell](final-images/shell.png)
-***This screenshot shows the shell functionality***
->>>>>>> 00f3d3532afdced2a25556094864c0a4f4c76485
+
+![Shell](final-images/shell2.png)
+
+***These screenshots shows the shell functionality***
 
 ![setpriv](final-images/setpriv.png)
 
@@ -147,21 +145,16 @@ The goal of these tests is to ensure that the client is working as expected, and
 
 # AAR
 
-Date: 01/01/2024
+Date: 08/12/2024
 
-Attendees: [John Smith, ...]
+Attendees: [Praj Shete, Michael Scalzetti, Michael Pothaczky, Amrit Sinha]
 
 * what went well?
-  * ...[something that went well]...
-  * ...[something else that went well]...
-  * ...[something else that went well]...
+  * met most of the functionalities
+  * completed in given time
 * what didnt go well?
-  * ...[something that didnt go well]...
-  * ...[something else that didnt go well]...
-  * ...[something else that didnt go well]...
+  * missed out on encrypotion and external IP part
 * what should we change?
-  * ...[something you want to change]...
+  * invest more time for the project
 
-Additional Notes (optional):
 
-* [anything else you want to capture]
