@@ -68,7 +68,7 @@ The goal of these tests is to ensure that the client is working as expected, and
 
 ![help](final-images/help-command.png)
 
-***In this screenshot, the improved `help` command's output is shown. Although all of the help messages and specific command examples couldn't be shown in this screenshot, they can easily be referenced [here](../Server/cli/README.md), in the CLI documentation.***
+***In this screenshot, the improved `help` command's output is shown. Although all of the help messages and specific command examples couldn't be shown in this screenshot, they can easily be referenced [here](../Server/cli/ReadMe.md), in the CLI documentation.***
 
 ## Documented Re-Tests
 
